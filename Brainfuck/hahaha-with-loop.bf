@@ -5,7 +5,7 @@ shift pointer right again
 +++++++++++++
 [>++++++++<-]>.>
 Calculate "a"
-shift pointer right and add one (we need 97, not 96)
+shift pointer right and add one (we need 97 not 96)
 print
 ++++++++++++
 [>++++++++<-]>+.
