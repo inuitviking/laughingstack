@@ -1,4 +1,4 @@
-# I don't know ruby, and I don't know what version this is
-for i in 0..2
+# Ruby 2.6.1
+3.times do
 	print "ha"
 end
