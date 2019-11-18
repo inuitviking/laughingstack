@@ -1,4 +1,7 @@
 # Ruby 2.6.1
+3.times do
+	print "ha"
+end
 
 # call below method with laugh and add optional argument. If no argument provided, will laugh 3 times
 # laugh 6 => "hahahahahaha", laugh 4 => "hahahaha", laugh => "hahaha"
