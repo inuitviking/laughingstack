@@ -1,12 +1,13 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/inuitviking/laughingstack/Go/1.12.x/simple"
 )
 
 func main() {
 	// Simple laugh
-	fmt.Println(simple.Laugh(10))
+	l := simple.SimpleLaugher{}
+	l.Guffaw()
+
+	// Concurrent laugh
 }
