@@ -1,12 +1,10 @@
-package simple
+package laugher
 
 import (
 	"fmt"
-
-	"github.com/inuitviking/laughingstack/Go/1.12.x/laugher"
 )
 
-var _ laugher.Laugher = (*SimpleLaugher)(nil)
+var _ Laugher = (*SimpleLaugher)(nil)
 
 type SimpleLaugher struct{}
 

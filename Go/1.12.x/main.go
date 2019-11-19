@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/inuitviking/laughingstack/Go/1.12.x/simple"
+	"github.com/inuitviking/laughingstack/Go/1.12.x/laugher"
 )
 
 func main() {
 	// Simple laugh
-	l := simple.SimpleLaugher{}
+	l := laugher.SimpleLaugher{}
 	l.Guffaw()
 
 	// Concurrent laugh
