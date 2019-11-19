@@ -14,5 +14,7 @@ If you don't know the version of the language, just add it to the main language 
 
 If it's a whole project, let's say you have made an entire 3D world that somehow generates the letters "hahaha", then create a project folder under the corresponding programming language and version. If more than one language is used, put it under the project's main programming language folder and correct version.
 A project folder could be named something like this:
+```
 {project-name}-{github-username}
+```
 This way we may not end up with any conflicts.
