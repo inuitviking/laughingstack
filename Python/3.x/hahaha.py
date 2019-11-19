@@ -1,6 +1,11 @@
-i = 0
+#!/usr/bin/env python3
+#
+
+from concurrent.futures import ThreadPoolExecutor
 
 
-while i < 3:
-	print("ha", end='')
-	i += 1
+with ThreadPoolExecutor(max_workers=6) as executor:
+    three = list(range(0, 3))
+    h_s = executor.map(lambda _: "h", three)
+    a_s = executor.map(lambda _: "a", three)
+    print("".join('{}{}'.format(x, y) for (x,y) in zip(h_s, a_s)))
