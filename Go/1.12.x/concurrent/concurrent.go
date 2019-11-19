@@ -7,7 +7,7 @@ import (
 	"github.com/inuitviking/laughingstack/Go/1.12.x/laugher"
 )
 
-var _ laugher.Laugher = (*ConcurrentLaugher)(nil)
+var _ laugher.Laugher = ConcurrentLaugher{}
 
 type ConcurrentLaugher struct{}
 

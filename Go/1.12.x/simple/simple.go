@@ -6,7 +6,7 @@ import (
 	"github.com/inuitviking/laughingstack/Go/1.12.x/laugher"
 )
 
-var _ laugher.Laugher = (*SimpleLaugher)(nil)
+var _ laugher.Laugher = SimpleLaugher{}
 
 type SimpleLaugher struct{}
 
